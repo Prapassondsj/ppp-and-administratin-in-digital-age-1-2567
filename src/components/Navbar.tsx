@@ -84,7 +84,7 @@ export default function Navbar() {
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
       ></script>
       <script
-        nomodule
+        noModule
         src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
       ></script>
     </div>

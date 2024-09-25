@@ -1,5 +1,6 @@
 //app\editProduct\[id]\page.js
-import EditProductForm from "@/components/EditProductForm";
+// import EditProductForm from "@/components/EditProductFrom";
+import EditProductForm from "../../../components/EditProductForm";
 
 const getProductById = async (id) => {
   try {
@@ -20,7 +21,7 @@ const getProductById = async (id) => {
 export default async function EditProduct({ params }) {
   const { id } = params;
   const { product } = await getProductById(id);
-  const { 
+  const {
     name,
     project,
     implementation,
@@ -33,7 +34,7 @@ export default async function EditProduct({ params }) {
     strength,
     development,
     suggestion,
-    } = product;
+  } = product;
 
   return (
     <EditProductForm
@@ -42,8 +43,8 @@ export default async function EditProduct({ params }) {
       project={project}
       implementation={implementation}
       email={email}
-      monile={mobile}
-      budget={budjet}
+      mobile={mobile}
+      budget={budget}
       year={year}
       evaluation={evaluation}
       weak={weak}

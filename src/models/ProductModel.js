@@ -8,7 +8,7 @@ const topicSchema = new Schema(
     implementation: { type: String, required: true },
     email: { type: String, required: true },
     mobile: { type: String, required: true },
-    budjet: { type: Number, required: true },
+    budget: { type: Number, required: true },
     year: { type: Number, required: true },
     evaluation: { type: Number, required: true },
     weak: { type: String, required: true },

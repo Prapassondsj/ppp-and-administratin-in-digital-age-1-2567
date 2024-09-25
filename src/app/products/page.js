@@ -1,6 +1,11 @@
-//app\products\page.js
-import ProductsList from "@/components/ProductList";
+import React from "react";
+// import Productlist from '../..components/ProductList'
+import ProductsList from "../../components/ProductList";
 
-export default function Home() {
-  return <ProductsList />;
+export default function page() {
+  return (
+    <div>
+      <ProductsList />
+    </div>
+  );
 }

@@ -1,10 +1,10 @@
-import React from "react";
-import AECRanking from "../components/AECRanking";
+import AECRanking from '@/components/AECRanking'
+import React from "react"
 
 export default function page() {
   return (
     <div>
       <AECRanking />
     </div>
-  );
+  )
 }
